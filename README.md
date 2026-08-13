@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Vinayak2323/Vinayak-s-Leetcode/tree/master/0001-two-sum) |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Vinayak2323/Vinayak-s-Leetcode/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Dynamic Programming
 |  |
@@ -23,4 +24,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Vinayak2323/Vinayak-s-Leetcode/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Vinayak2323/Vinayak-s-Leetcode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
