@@ -13,7 +13,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     struct ListNode*ptr3=NULL;
     head=malloc(sizeof(struct ListNode));
     ptr3=head;
-    ptr3->next=NULL;
+    //ptr3->next=NULL;
     if(ptr1==NULL&&ptr2==NULL){
         printf("invalid");
         return 0;
@@ -36,7 +36,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
         
         ptr3->next=malloc(sizeof(struct ListNode));
         ptr3=ptr3->next;
-        ptr3->next=NULL;
+        //ptr3->next=NULL;
         ptr3->val=ptr1->val+ptr2->val+carry;
         carry=0;
         if(ptr3->val>9){
@@ -51,7 +51,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     while(ptr1!=NULL){
         ptr3->next=malloc(sizeof(struct ListNode));
         ptr3=ptr3->next;
-        ptr3->next=NULL;
+        //ptr3->next=NULL;
         ptr3->val=ptr1->val+carry;
         carry=0;
         if(ptr3->val>9){
@@ -63,7 +63,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     while(ptr2!=NULL){
         ptr3->next=malloc(sizeof(struct ListNode));
         ptr3=ptr3->next;
-        ptr3->next=NULL;
+        //ptr3->next=NULL;
         ptr3->val=ptr2->val+carry;
         carry=0;
         if(ptr3->val>9){
@@ -75,9 +75,10 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     if(carry==1){
         ptr3->next=malloc(sizeof(struct ListNode));
         ptr3=ptr3->next;
-        ptr3->next=NULL;
+        //ptr3->next=NULL;
         ptr3->val=1;
         
     }
+    ptr3->next=NULL;
     return head;
 }
