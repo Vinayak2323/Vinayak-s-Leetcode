@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Vinayak2323/Vinayak-s-Leetcode/tree/master/0001-two-sum) |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Vinayak2323/Vinayak-s-Leetcode/tree/master/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [3417-zigzag-grid-traversal-with-skip](https://github.com/Vinayak2323/Vinayak-s-Leetcode/tree/master/3417-zigzag-grid-traversal-with-skip) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -42,4 +43,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Vinayak2323/Vinayak-s-Leetcode/tree/master/0002-add-two-numbers) |
+## Matrix
+|  |
+| ------- |
+| [3417-zigzag-grid-traversal-with-skip](https://github.com/Vinayak2323/Vinayak-s-Leetcode/tree/master/3417-zigzag-grid-traversal-with-skip) |
+## Simulation
+|  |
+| ------- |
+| [3417-zigzag-grid-traversal-with-skip](https://github.com/Vinayak2323/Vinayak-s-Leetcode/tree/master/3417-zigzag-grid-traversal-with-skip) |
 <!---LeetCode Topics End-->
